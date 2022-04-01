@@ -6,6 +6,7 @@ Demo on unary operator overloading
 
 
 #include<iostream>
+using namespace std;
 
 class Hello
 {
@@ -28,5 +29,5 @@ int main ()
 {
   Hello hello;
   ++hello;
-  std::cout << hello.a;
+  cout << hello.a;
 }
