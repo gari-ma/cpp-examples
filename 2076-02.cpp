@@ -1,0 +1,1 @@
+/* . Write programs to add two object of distance class with data members feet and inch by using by using member function and friend function. */

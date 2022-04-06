@@ -1,0 +1,1 @@
+/* Write a program that converts object of another distance class with data members feet and inch.(Assume 1m = 3.3 feet and 1cm = 0.4 inch) */
