@@ -15,7 +15,7 @@ class Derived: public Base {
     public:
     // now we have to override the class as 
     // it is a abstract class
-    void getData() override {
+    void getData() {
         cout<<"hug you!"<<endl;
     }
 };
