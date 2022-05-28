@@ -4,17 +4,24 @@ using namespace std;
 int main()
 {
 
-    int a;
+    int a,b,c;
     try
     {
-        cin>>a;
+        cout<<"Enter two number: ";
+        cin>>a>>b;
         if(a == 0) throw string("Error");
-        cout<<"A is: "<<a<<endl;
+        if(a == 1) throw a;
+        
+        c = a/b;
+        cout<<"The result is: "<<c;
 
     }
     catch (string s)
     {
-        cout<<s<<endl;
+        cout<<"string error"<<endl;
+    }
+    catch(int a) {
+        cout<<"int error"<<endl;
     }
 
     return 0;
