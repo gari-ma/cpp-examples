@@ -1,4 +1,4 @@
-// container ship
+// containership, aggregation
 // using class inside another class
 
 #include<iostream>
@@ -12,6 +12,7 @@ class A {
 };
 
 class B {
+    private:
     A a;
     public:
         void huhu() {

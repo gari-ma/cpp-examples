@@ -30,7 +30,7 @@ int main() {
     
     
     
-    ++r;   /// similar to r.++()    
+    ++r;   /// similar to r.++()   
     r.output();
     
 

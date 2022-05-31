@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-// overriding member function
+// ambuigity in multiple inheritance
 class A {
     public:
     void test() {
